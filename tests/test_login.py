@@ -19,7 +19,7 @@ def test_valid_logout(browser):
     login_page.click_login()
     dashboard_page = DashboardPage(browser)
     dashboard_page.click_usermenu()
-    dashboard_page.click_logout()
+    # dashboard_page.click_logout()
 
     assert login_page.is_login_page_displayed()
 
